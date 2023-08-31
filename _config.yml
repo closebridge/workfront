@@ -1,5 +1,5 @@
 url: "closebridge.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/wf" # the subpath of your site, e.g. /blog
+baseurl: "/workfront" # the subpath of your site, e.g. /blog
 title: "(bridge) confort zone" # the name of your site, e.g. ACME Corp.
 
 plugins:
