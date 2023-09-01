@@ -9,5 +9,6 @@ That's Jekyll, I followed [OhSoStatic's](https://jekyll.ohsostatic.com/devops/ho
 
 ## Screenshot
 *teehee okay*
-[![mama mia](https://media.discordapp.net/attachments/1146434905887227976/1146961781546291211/image.png?width=727&height=433 "mama mia")](https://closebridge.github.io/workfront/ "mama mia")
+
+!["teehee"](https://media.discordapp.net/attachments/1029731354587443280/1147160251695648859/image.png?width=747&height=433)
 
