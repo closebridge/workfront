@@ -1,4 +1,4 @@
-# Personal site (Jekyll)(Begone!)
+# Personal site (Jekyll)
 A ✨**pretty**✨ cool website built with TailwindCSS, **as I slowly learn HTML and CSS**
 
 ![](https://media.discordapp.net/stickers/1031938879290347540.png?size=160)
