@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css">
   <link href="/src/style.css">
-  <script src="/src/scripts/main.js"></script>
+  <script src="/assets/script.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-  <link rel="icon" type="image/x-icon" href="/assets/item/favicon.png"">
+  <link rel="icon" type="image/x-icon" href="/assets/item/favicon.png">
   <title>(bridge) little shelter</title>
   <!--script from down here-->
   <script>
@@ -30,6 +30,14 @@
         content-visibility: auto;
       }
     }
+    @keyframes scaleEffect {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+    }
   </style>
 </head>
 <!--hi chat-->
@@ -39,14 +47,15 @@
 <body style="overflow: hidden"> <!--uuh im tired-->
 
 
-  <div class="lg:content-auto prose" >
-    <button id="namey" class="mx-28 mt-40 pb-6 rounded-lg text-6xl text-white duration-100 underline-offs hover:underline active:scale-110" style="text-underline-offset: 12px;">(bridge)</button>
+  <div class="flex relative flex-row mt-[5rem] ml-20" >
+    <button onclick="showIt()" id="namey" class=" rounded-lg text-6xl text-white duration-100 underline-offs hover:underline active:scale-110" style="text-underline-offset: 12px;">(bridge)</button>
+    <img class=" w-[6rem] h-[2rem] animate-ping absolute left-[5rem] -top-[2rem] -rotate-6" src="/assets/item/the h.png" alt="click here">
   </div>
 
-  
-  <div class="grid-rows-2 flex text-white outline-white gap-1" id="infomy">
-    <div class="mt-6 ml-6 bg-indigo-800 text-xl rounded-md text-center bg-opacity-10 w-72 bg-blur pt-2 pb-2 outline outline-offset-2 outline-1 pl-1 pr-1 transition-transform hover:scale-105" style="outline-color: #382d9b;">
-      <p class="scale-150">I'm (bridge)</p>
+  <!--Information grid-->
+  <div class="invisible flex absolute text-white outline-white gap-1 sm:flex-1 transition-opacity ease-in-out duration-300" id="dataThing">
+    <div  class=" mt-6 ml-6 bg-indigo-800 text-xl rounded-md text-center bg-opacity-10 w-72 bg-blur pt-2 pb-2 outline outline-offset-2 outline-1 pl-1 pr-1 transition-transform hover:scale-105" style="outline-color: #382d9b;">
+      <p  class="scale-150">I'm (bridge)</p>
       <div style="display: flex; align-items: center; justify-content: center;">
         <img src="https://media.discordapp.net/stickers/1031938879290347540.png?size=160" class="drop-shadow-lg mt-2 rounded-lg">
       </div>
@@ -76,7 +85,7 @@
         </a>
       </div>
       <p style="font-style: italic; font-size: small; margin-top: 18px;">*i dont use twitter</p>
-      <p style="font-style: italic; font-size: small; margin-top: 5px">**discord sux!</p>
+      <p style="font-style: italic; font-size: small; margin-top: 5px">(god this site is a hot mess)</p>
     </div>
   </div>
 
