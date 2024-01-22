@@ -1,3 +1,4 @@
+# **Nuked, do not have any intention to repair it**
 # Personal site (Jekyll)
 A ✨**pretty**✨ cool website built with TailwindCSS, **as I slowly learn HTML and CSS**
 
